@@ -1,0 +1,41 @@
+/**
+* Theme Name: Type Child
+* Template: type
+*/
+.dptTimetable, .dptTimetable * {
+    border: none !important;
+    background: none !important;
+}
+
+.dptTimetable thead th {
+    background: none;
+    border-bottom: 1px solid black !important;
+}
+
+.dptTimetable tbody tr:first-child th {
+    font-weight: bold !important;;
+    font-family: Poppins !important;
+    font-size: 15px;
+    text-align: left !important;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.dptTimetable tbody th, .dptTimetable tbody td {
+    color: black;
+    padding: 2px !important;
+}
+
+.dptTimetable .tableHeading {
+    background: white !important;
+    border-bottom: 2px solid black !important;
+    color: black;
+}
+
+.op-table th {
+    color: black;
+}
+
+.sidebar .widget-title span:before, .sidebar .widget-title span:after {
+    display: none;
+}
